@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #eee;
+
+}
+input[type='text'],
+input[type='number']
+{
+  width: 250px;
+  height: 25px;
+  margin: .5rem 1rem;
+  padding: .7rem;
+}
+.container{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+.flex{
+  border: 2px solid lightcoral;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.inputs{
+  display: flex;
+  flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+  width: 30%;
+	gap: 1rem;
+  margin: 1rem .5rem;
+}
+.title:first-child{
+  margin: 0 auto 1rem auto;
+
+}
+.title ~ .title{
+   margin: 2rem auto 1rem auto;
+}
+.options{
+  margin-inline-start: 1rem;
+  margin-block-end: 1rem; 
+}
+.socials{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+.socials a{
+	padding: 1rem 2rem;
+	color: maroon;
+	background-color: #ddd;
+	text-decoration: none;
+	font-size: 1.5rem;
+	transition: color 250ms ease-in-out;
+	cursor: pointer;
+}
+.socials a:hover{
+color: rgb(190, 13, 13);
+background-color: rgb(206, 194, 194);
+}
+.summ{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}

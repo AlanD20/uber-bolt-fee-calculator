@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta class="viewport" content="width=device-width">
+    <title>Uber Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+ <script defer src="index.js"></script>
+  </head>
+  <body>
+    
+    <div class="container">
+      <form class="inputs">
+        <div class="forecast flex">
+        <h2 class="title">Forecast</h2>
+        <input class="uberEarning" placeholder="Uber Earning" type="number">
+        <input class="uberBonus" placeholder="Uber Bonus" type="number">
+        <input class="boltEarning" placeholder="Bolt Earning" type="number">
+        <input class="boltBonus" placeholder="Bolt Bonus" type="number">
+        <span><input type="radio" name="options" value="business" class="options"> Business?</span>          
+        <span><input type="radio" name="options" value="others" class="options"> student?</span>          
+        <span><input type="radio" name="options" value="others" class="options"> No Job?</span>          
+        <span><input type="radio" name="options" value="others" class="options"> Different Job?</span>          
+        </div>
+      
+        <div class="fees flex">
+        <h2 class="title">Fees</h2>
+        <input class="partnerFee" readonly="true" placeholder="Partner Fee" type="text">
+        <input class="uberVat" readonly="true" placeholder="Uber VAT" type="text">
+        <input class="boltVat" readonly="true" placeholder="Bolt VAT" type="text">
+        <input class="contractFee" readonly="true" placeholder="Contract of mandate fee" type="text">
+
+        </div>
+      </form>
+		<div class="summ">
+        <div class="summary flex">
+				<h2 class="title">Summary</h2>
+        <input class="overallEarning" readonly="true" placeholder="Overall Earning" type="text">
+        <input readonly="true" class="partnerFeeWithAccounting" placeholder="Partner's fee + accounting" type="text">
+        <input class="taxes" readonly="true" placeholder="Taxes" type="text">
+        <input class="finalPayout" readonly="true" placeholder="Your payout" type="text">
+        </div>
+		<div class="socials">
+			<a href="https://twitter.com/AlanD_2011">Twitter</a>
+			<a href="https://github.com/AlanD20">Github</a>
+			<a href="http://aland20.github.io/">Personal Portfolio</a>
+			<a href="https://ravapi.pl/en/calculator/">Original Website</a>
+		</div>
+		</div>
+		
+    </div>
+		
+  </body>
+</html>
